@@ -68,10 +68,10 @@ Well, with a 2-layer PCB heat dissipation becomes an issue when running at the p
 [HAT]: https://www.raspberrypi.org/blog/introducing-raspberry-pi-hats/
 [Hifiberry Amp+]: https://www.hifiberry.com/products/ampplus/
 [TAS5713]: http://www.ti.com/product/TAS5713/description
-[TI TAS5713 datasheet]: www.ti.com/lit/ds/symlink/tas5713.pdf
+[TI TAS5713 datasheet]: http://www.ti.com/lit/ds/symlink/tas5713.pdf
 [TI TAS5713 user guide]: http://www.ti.com/lit/pdf/slou281
-[Vishay TSOP32xxx Series]: www.vishay.com/docs/82489/tsop322.pdf
-[AO4803A]: www.aosmd.com/pdfs/datasheet/AO4803A.pdf
+[Vishay TSOP32xxx Series]: http://www.vishay.com/docs/82489/tsop322.pdf
+[AO4803A]: http://www.aosmd.com/pdfs/datasheet/AO4803A.pdf
 [TI TPS62133]: http://www.ti.com/product/TPS62133
 [TI TPS54302]: http://www.ti.com/product/TPS54302
 [ShenZhen2U]: http://www.shenzhen2u.com/
