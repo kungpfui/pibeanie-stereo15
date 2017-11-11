@@ -35,7 +35,7 @@ a cheap, proof of concept, 2-layer PCB which does work really proper
 
 - [AO4803A] P-FET, with <46mOhm RDSon does the reverse polarity protection and in-rush current limiting.
 - [TI TPS62133] 5V/3A step-down converter powers the Raspberry Pi and easily an additional Raspberry Pi 7" display ... and USB hard drives.
-- [TAS5713] class D amplifier with a superb output filter design and superior 15000 hour low ESR (23mOhm!) polymer aluminum decoupling capacitors.
+- [TAS5713] class D amplifier with a superb output filter design and superior 15000 hour @ 105°C low ESR (23mOhm!) [Nippon Chemi Con PXG Series] polymer aluminum decoupling capacitors. They should last forever!
 - solder-pads for optional IR receiver. Vishay TSOP32xxx series.
 - solder-pads for device tree blob EEPROM (which is not tested nowadays)
 - modular connector (I like them) and 5.5/2.1mm jack. Cheap screw terminals would work as well.
@@ -45,7 +45,7 @@ My expectations: My PCB design generates less high frequency distortion on the a
 
 ![left channel][pibeanie-stereo15_left.png] ![right channel][pibeanie-stereo15_right.png]
 
-The base frequency of 375kHz can't be filtered out completely but it is too high to be heard.
+The base frequency of 375kHz can't be filtered out completely but it is far too high to be heard.
 The red line is the calculated differential signal between + and - (or vice versa) of a single audio channel. Instead of a speaker a resistive load of 8.91 Ohm was connected.
 
 In comparison: The signal of my Hifiberry Amp+ shows high frequency switching noise with the same measurement setup ... and + and - connections are reversed which doesn't really matter.
@@ -54,8 +54,11 @@ In comparison: The signal of my Hifiberry Amp+ shows high frequency switching no
 
 
 ### Downsides ###
-This design is limited by the maximum input voltage of 17V which is defined by the [TI TPS62133] DC/DC converter. So the maximum audio output power is limited to around 2x10 Watt @ 8 Ohm. Personally, I supply this audio amplifier with a 12V/2A power supply an get only ~7.5 Watt @ 8 ohm per channel. I can life with that audio power.
-Nowadays I would take an different DC/DC converter. [TI TPS54302] wouldn't limit the supply voltage anymore but needs a much bigger, more expensive, choke.
+This design is limited by the maximum input voltage of 17V which is defined by the [TI TPS62133] DC/DC converter. So the maximum audio output power is limited to around 2x10 Watt @ 8 Ohm. Personally, I supply this audio amplifier with a 12V/3A power supply and get only 7.5 Watt @ 8 ohm per channel or around 11W @ 4ohm. I can live with that audio power.
+
+I also made some temperature measurments at 4 and 8 Ohm load and maximum sine amplitude. The maximum temperature measured after ~5 minutes at 4 ohm was 107°C. That's a little bit hot. The [TAS5713] has an over-temperature shutdown which would come to life at 150°C. I didn't want to test it with my unique board. Well, at 8 Ohm the temperature was only around 80°C.
+
+Nowadays I would take a different DC/DC converter. [TI TPS54302] wouldn't limit the supply voltage anymore but needs a much bigger, more expensive, choke.
 
 Component prices could make this Raspberry Pi hat a little bit questionable. I got most parts as free engineering samples. Building this hat in low quantities does you make a poor man. The most expensive parts are the coils from Coilcraft. 4 x XAL1010-153ME does cost around 25$ at Mouser and, honestly, they are heavily oversized. Take a look at the BOM for a complete overview.
 
@@ -70,6 +73,7 @@ Well, with a 2-layer PCB heat dissipation becomes an issue when running at the p
 [TAS5713]: http://www.ti.com/product/TAS5713/description
 [TI TAS5713 datasheet]: http://www.ti.com/lit/ds/symlink/tas5713.pdf
 [TI TAS5713 user guide]: http://www.ti.com/lit/pdf/slou281
+[Nippon Chemi Con PXG Series]: http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&j=p&pdfname=pxg
 [Vishay TSOP32xxx Series]: http://www.vishay.com/docs/82489/tsop322.pdf
 [AO4803A]: http://www.aosmd.com/pdfs/datasheet/AO4803A.pdf
 [TI TPS62133]: http://www.ti.com/product/TPS62133
