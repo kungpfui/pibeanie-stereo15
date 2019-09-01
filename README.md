@@ -66,6 +66,11 @@ I've created a 2 layers PCB instead of 4 layers because 2 layers PCBs are much c
 Well, with a 2-layer PCB heat dissipation becomes an issue when running at the power limit but my design showed a lower maximum temperature than the 4-Layer Hifiberry Amp+ PCB under similar conditions. In my opinion, no wonder. My copper surfaces are exposed to the air, on the Hifiberry Amp+ PCB you have to search the copper areas.
 
 
+### Impressions ###
+![Mounted to the Raspberry PI 7" display][pibeanie-stereo15_rpilcd1.jpg]
+![Mounted to the Raspberry PI 7" display][pibeanie-stereo15_rpilcd2.jpg]
+
+
 [Raspberry Pi]: https://www.raspberrypi.org/
 [Raspberry Pi 7" display]: https://www.raspberrypi.org/blog/the-eagerly-awaited-raspberry-pi-display/
 [HAT]: https://www.raspberrypi.org/blog/introducing-raspberry-pi-hats/
@@ -81,6 +86,9 @@ Well, with a 2-layer PCB heat dissipation becomes an issue when running at the p
 [ShenZhen2U]: http://www.shenzhen2u.com/
 
 [pibeanie-stereo15.jpg]: https://github.com/kungpfui/pibeanie-stereo15/blob/master/images/pibeanie-stereo15.jpg "Pibeanie Stereo15"
+[pibeanie-stereo15_pcb.jpg]: https://github.com/kungpfui/pibeanie-stereo15/blob/master/images/pibeanie-stereo15_pcb.jpg "Pibeanie Stereo15 PCB"
+[pibeanie-stereo15_rpilcd1.jpg]: https://github.com/kungpfui/pibeanie-stereo15/blob/master/images/pibeanie-stereo15_rpilcd1.jpg "Pibeanie Stereo15 with Raspberry Pi 7" display"
+[pibeanie-stereo15_rpilcd2.jpg]: https://github.com/kungpfui/pibeanie-stereo15/blob/master/images/pibeanie-stereo15_rpilcd2.jpg "Pibeanie Stereo15 with Raspberry Pi 7" display"
 [pibeanie-stereo15_left.png]: https://github.com/kungpfui/pibeanie-stereo15/blob/master/images/pibeanie-stereo15_left.png "Zero audio signal, left channel"
 [pibeanie-stereo15_right.png]: https://github.com/kungpfui/pibeanie-stereo15/blob/master/images/pibeanie-stereo15_right.png "Zero audio signal, right channel"
 [hifiberry-amp+_left.png]: https://github.com/kungpfui/pibeanie-stereo15/blob/master/images/hifiberry-amp+_left.png "Zero audio signal, left channel"
