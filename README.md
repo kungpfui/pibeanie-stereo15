@@ -31,6 +31,8 @@ My Pibeanie Stereo15
 
 ![Pibeanie Stereo15][pibeanie-stereo15.jpg]
 
+![Unpopulated PCB][pibeanie-stereo15_pcb.jpg]
+
 a cheap, proof of concept, 2-layer PCB which does work really proper
 
 - [AO4803A] P-FET, with <46mOhm RDSon does the reverse polarity protection and in-rush current limiting.
