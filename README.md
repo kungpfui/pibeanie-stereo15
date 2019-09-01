@@ -31,8 +31,6 @@ My Pibeanie Stereo15
 
 ![Pibeanie Stereo15][pibeanie-stereo15.jpg]
 
-![Unpopulated PCB][pibeanie-stereo15_pcb.jpg]
-
 a cheap, proof of concept, 2-layer PCB which does work really proper
 
 - [AO4803A] P-FET, with <46mOhm RDSon does the reverse polarity protection and in-rush current limiting.
@@ -64,8 +62,11 @@ Nowadays I would take a different DC/DC converter. [TI TPS54302] wouldn't limit 
 
 Component prices could make this Raspberry Pi hat a little bit questionable. I got most parts as free engineering samples. Building this hat in low quantities does you make a poor man. The most expensive parts are the coils from Coilcraft. 4 x XAL1010-153ME does cost around 25$ at Mouser and, honestly, they are heavily oversized. Take a look at the BOM for a complete overview.
 
+
 I've created a 2 layers PCB instead of 4 layers because 2 layers PCBs are much cheaper especially when ordered in China. I've ordered a bunch of PCBs and a stencil at [ShenZhen2U]. The parts were placed by hand and a cheap reflow oven has done the rest.
 Well, with a 2-layer PCB heat dissipation becomes an issue when running at the power limit but my design showed a lower maximum temperature than the 4-Layer Hifiberry Amp+ PCB under similar conditions. In my opinion, no wonder. My copper surfaces are exposed to the air, on the Hifiberry Amp+ PCB you have to search the copper areas.
+
+![Unpopulated PCB][pibeanie-stereo15_pcb.jpg]
 
 
 ### Impressions ###
