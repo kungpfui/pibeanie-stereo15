@@ -79,16 +79,16 @@ Well, with a 2-layer PCB heat dissipation becomes an issue when running at the p
 [Raspberry Pi]: https://www.raspberrypi.org/
 [Raspberry Pi 7" display]: https://www.raspberrypi.org/blog/the-eagerly-awaited-raspberry-pi-display/
 [HAT]: https://www.raspberrypi.org/blog/introducing-raspberry-pi-hats/
-[Hifiberry Amp+]: https://www.hifiberry.com/products/ampplus/
-[TAS5713]: http://www.ti.com/product/TAS5713/description
-[TI TAS5713 datasheet]: http://www.ti.com/lit/ds/symlink/tas5713.pdf
-[TI TAS5713 user guide]: http://www.ti.com/lit/pdf/slou281
-[Nippon Chemi Con PXG Series]: http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&j=p&pdfname=pxg
-[Vishay TSOP32xxx Series]: http://www.vishay.com/docs/82489/tsop322.pdf
+[Hifiberry Amp+]: https://web.archive.org/web/20160708091429/https://www.hifiberry.com/ampplus/
+[TAS5713]: https://www.ti.com/product/TAS5713/description
+[TI TAS5713 datasheet]: https://www.ti.com/lit/ds/symlink/tas5713.pdf
+[TI TAS5713 user guide]: https://www.ti.com/lit/pdf/slou281
+[Nippon Chemi Con PXG Series]: https://www.chemi-con.co.jp/en/products/detail-condenser.php?part_number=APXG200ARA221MHA0G
+[Vishay TSOP32xxx Series]: https://www.vishay.com/docs/82489/tsop322.pdf
 [AO4803A]: http://www.aosmd.com/pdfs/datasheet/AO4803A.pdf
-[TI TPS62133]: http://www.ti.com/product/TPS62133
-[TI TPS54302]: http://www.ti.com/product/TPS54302
-[ShenZhen2U]: http://www.shenzhen2u.com/
+[TI TPS62133]: https://www.ti.com/product/TPS62133
+[TI TPS54302]: https://www.ti.com/product/TPS54302
+[ShenZhen2U]: https://www.shenzhen2u.com/
 
 [pibeanie-stereo15.jpg]: https://github.com/kungpfui/pibeanie-stereo15/blob/master/images/pibeanie-stereo15.jpg "Pibeanie Stereo15"
 [pibeanie-stereo15_pcb.jpg]: https://github.com/kungpfui/pibeanie-stereo15/blob/master/images/pibeanie-stereo15_pcb.jpg "Pibeanie Stereo15 PCB"
